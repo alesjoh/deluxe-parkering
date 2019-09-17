@@ -1,38 +1,97 @@
+<!DOCTYPE html>
 <html>
+   
+    <head>
+            <title>Deluxe Parkering</title>
+            <link rel="stylesheet" type="text/css" href="design.css"/>
+    </head>
 
-
-    <link rel="stylesheet" type="text/css" href="design.css"/>
-
+    <body>
     <div class="header">
-            <center>
-             <a class="menu" href="index.html">Startsida</a>
-             <a class="menu" href="boka.html">Boka parkering</a>
-             <a class="menu" href="ovriga.html">Våra övriga tjänster</a>
-             <a class="menu" href= "hitta.html">Hitta till oss</a>
-             <a class="menu" href="kontakt.html">Kontakt</a> </center> 
-         </div>
+       <center>
+        <a class="menu" href="index.html">Startsida</a>
+        <a class="menu" href="boka.html">Boka parkering</a>
+        <a class="menu" href="ovriga.html">Våra övriga tjänster</a>
+        <a class="menu" href= "hitta.html">Hitta till oss</a>
+        <a class="menu" href="kontakt.html">Kontakt</a> 
+        <a class="menu" href="omsidan.html">Om sidan</a></center> 
+    </div>
+  
+     
+    <div class="content"> 
+        <br>
+        <br>
+        <img src="images/bokaloga.jpg" class="center">
+        <br>
+        <br>
+        <text class="text1">Här bokar du din parkeringsplats</text>
+        <BR>
+        <BR>
+        <text class="text2">
+        <BR>
+        Fyll i formuläret nedan för att boka parkeringplats. Betalning sker när du lämnar din bil hos oss. 
+        För att se priserna på våra tjänster, kolla under övriga tjänster. 
+        <BR><BR>
+ 
 
-
-         <head>
+            <div class="box">
+            
+               <form action="">
+                <table border="0"> 
+                <tr>
+                <td>Förnamn:</td>
+                <td>Efternamn:</td>
+                </tr>
+                <tr>
+                <td><input type="text" name="Förnamn" size="18"></td>
+                <td><input type="text" name="Efternamn" size="18"> </td>
+                </tr>
+                <tr>
+                <td>Registreringsnummer:</td>
+                <td>Ankomstdatum:</td>
+                </tr>
+                <tr>
+                <td><input type="text" name="Registreringsnummer" size="18"></td>
+                <td><input type="text" name="Ankomstdatum" value="Tex 2019-12-31" size="18"></td>
+                </tr>
+                <tr>
+                <td>Telefonnummer:</td>
+                <td>E-post:</td>
+                </tr>
+                <tr>
+                <td><input type="text" name="Telefonnummer" size="18"></td>
+                <td><input type="text" name="E-post" size="18"> </td>
+                </tr>
+                <tr>
+                <td>Välj tidsplan:</td>
+                <td></td>
+                </tr>
+                <tr>
+                <td>
                 
-         </head>
-         
-        <Body>
-        <BR>
-        <BR>
-        <center><img src="images/bokaloga.jpg"> </center>
+                        <select name="tidsplan">
+                                <option value="dygn">24 timmar - 300:-</option>
+                                <option value="3dagar">3 dagar- 800:-</option>
+                                <option value="7dagar">7 dagar - 2000:-</option>
+                                <option value="30dagar">30 dagar - 7500:-</option>
+                                </select>    
+                </td>
+                <td> <button type="button" onclick="alert('Vi har mottagit din bokning')">Boka parkering</button></td>
+                </tr>
+                </table>
+                </form>
+                </form>
+                </text>
+                </div>
+                
+                </div></table>
+<BR>
+<BR>
         
-        <text class ="text1">
-        För att boka parkering fyll i formuläret nedan:</text>
-        <form action="">
-            Förnamn:<br>
-            <input type="text" name="förnamn">
-            <br>
-            Efternamn:<br>
-            <input type="text" name="Efternamn"><BR><BR>
-            <input type="submit" value="Boka parkering">
-            </form>
-    
-    </Body>
 
-</html>
+    </body>
+<BR>
+<BR>
+<BR>
+<BR>
+    </html>
