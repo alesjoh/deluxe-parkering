@@ -16,3 +16,4 @@ a:hover{color: darkblue;}
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px; }
 table{border-spacing: 20px 0; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px}
 .fixed { position: fixed; right: 10px; bottom: 10px}
+.textbox {width: 80%;}
