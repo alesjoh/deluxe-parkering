@@ -14,6 +14,7 @@ a:hover{color: darkblue;}
 .box{ border: solid 1px black; display: inline-block; padding: 10px; background-color: beige; }
 .box2 {border: solid 1px black; display: inline-block; padding: 10px; background-color: beige; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px; }
-table{border-spacing: 20px 0; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px}
+table{border-spacing: 20px 0; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px; 
+background-color: beige; border-color: black; border-width: 2px;}
 .fixed { position: fixed; right: 10px; bottom: 10px}
 .textbox {width: 80%;}
